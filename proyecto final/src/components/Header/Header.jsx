@@ -4,14 +4,14 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <h1>React Router</h1>
+      <h1>DISEÑO</h1>
       <nav>
         <ul>
           <li>
-            <NavLink to="/" className="">Home</NavLink>
+            <NavLink to="/" className="homelink">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/foto" className="Fotografialink">Fotografía</NavLink>
+            <NavLink to="/foto" className="fotolink">Fotografía</NavLink>
           </li>
           <li>
             <NavLink to="/diseño" className="diseñolink">Diseño</NavLink>
@@ -20,10 +20,7 @@ const Header = () => {
             <NavLink to="/color" className="colorlink">Color</NavLink>
           </li>
           <li>
-            <NavLink to="/web" className="weblink">Wen</NavLink>
-          </li>
-          <li>
-            <NavLink to="/notfound" className="notfoundlink">NotFound</NavLink>
+            <NavLink to="/web" className="weblink">Web</NavLink>
           </li>
         </ul>
       </nav>
